@@ -1,6 +1,6 @@
-#CodePen exercise 03 - Landing page
+# CodePen exercise 03 - Landing page
 
-##Requirements
+## Requirements
 To make a **landing page** featuring:
 - A header element with id="header"
 - A header image with id="header-img"
@@ -13,7 +13,7 @@ To make a **landing page** featuring:
 - At least one media query
 - At least one flex element
 
-##Steps
+## Steps
 1. Start HTML file: add the header element, the nav element inside it, and the three links
 2. Add the header image
 3. Create content wrapper and three sections with distinct IDs for form, video and content
