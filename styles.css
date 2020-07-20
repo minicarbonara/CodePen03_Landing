@@ -11,4 +11,7 @@ body {
   a:hover {
     color: 	#ffd700;
   }
-  
+
+  #wrapper {
+    margin: 0px auto 0px auto;
+  }
