@@ -1,17 +1,75 @@
 body {
-    background-color: #333;
-    color: #7fff00;
-    font-family: "Lucida Console", Monaco, monospace;
-  }
-  
-  a {
-    color: #66cd00;
-  }
-  
-  a:hover {
-    color: 	#ffd700;
-  }
+  background-color: #333;
+  color: #7fff00;
+  font-family: "Lucida Console", Monaco, monospace;
+}
 
-  #wrapper {
-    margin: 0px auto 0px auto;
-  }
+a {
+  color: #66cd00;
+}
+
+a:hover {
+  color: #ffd700;
+}
+
+nav>ul {
+  width: 25em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  padding: 0.5em 1em;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+}
+
+#wrapper {
+  width: 70%;
+  margin: 5em auto;
+}
+
+section {
+  margin: 2em auto;
+}
+
+#productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.producto {
+  padding: 0.5em;
+  width: 30%;
+  min-width: 280px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.producto>img {
+  margin: 0 auto 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.producto>h3 {
+  text-align: center;
+}
+
+footer {
+  background-color: #111;
+  padding: 1em 5em;
+  font-size: small;
+}
